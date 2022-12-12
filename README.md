@@ -4,7 +4,7 @@
  Code for blog post https://schellingerhout.github.io/memory%20management/record-pool-delphi/
  
 
- 'New` can be slow in repeated calls to create record, to speed it up we can use a Pool to allocate new records and return pointers. For instance:
+ `New` as defined in `System.pas` can be slow in repeated calls to create record, to speed it up we can use a Pool to allocate new records and return pointers. For instance:
  
  Given these types
  ```pascal
